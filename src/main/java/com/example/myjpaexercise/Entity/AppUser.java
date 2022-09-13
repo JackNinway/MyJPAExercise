@@ -1,4 +1,4 @@
-package com.example.myjpaexercise.Model;
+package com.example.myjpaexercise.Entity;
 
 import javax.persistence.*;
 import java.time.LocalDate;

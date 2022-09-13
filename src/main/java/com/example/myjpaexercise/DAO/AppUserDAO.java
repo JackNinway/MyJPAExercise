@@ -1,9 +1,11 @@
-package DAO;
+package com.example.myjpaexercise.DAO;
 
-import Model.AppUser;
+import com.example.myjpaexercise.Entity.AppUser;
+
+import java.util.Optional;
 
 public interface AppUserDAO {
-    AppUser findById(int id);
+    Optional<AppUser> findById(int id);
     AppUser save(AppUser appUser);
-    AppUser delete(AppUser appUser);
+    void delete(AppUser appUser);
 }
